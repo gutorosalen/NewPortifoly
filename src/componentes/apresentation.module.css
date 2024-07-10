@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    margin: 0;
+    padding: 0;
+    --color--1: rgb(255, 255, 255);
+    --font-padrão: "Poppins", sans-serif;
+    --h1: 42px;
+    --p: 22px;
+    --button: 28px;
+}
+
+#slider {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 50px;
+}
+
+h1 {
+    color: var(--color--1);
+    font-family: var(--font-padrão);
+    font-size: var(--h1);
+    margin: 20px 80px;
+    padding-left: 20px;
+
+}
+
+p {
+    color: var(--color--1);
+    font-family: var(--font-padrão);
+    font-size: var(--p);
+    margin: 20px 130px;
+    padding-left: 20px;
+}
+
+#button {
+    margin: 15px 130px;
+    padding-left: 60px;
+}
+
+@media (max-width: 1250px) {
+    :root {
+        margin: 0;
+        padding: 0;
+        --color--1: rgb(255, 255, 255);
+        --font-padrão: "Poppins", sans-serif;
+        --h1: 32px;
+        --p: 16px;
+        --button: 18px;
+    }
+
+    #slider {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin: 45px;
+    }
+
+    h1 {
+        color: var(--color--1);
+        font-family: var(--font-padrão);
+        font-size: 28px;
+        margin: 18px 60px;
+        padding-left: 20px;
+
+    }
+
+    p {
+        color: var(--color--1);
+        font-family: var(--font-padrão);
+        font-size: 18px;
+        margin: 20px 130px;
+        padding-left: 20px;
+    }
+
+    #button {
+        margin: 15px 130px;
+        padding-left: 60px;
+    }
+
+}
+
+@media (max-width: 1100px) {
+    #slider {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin: 35px;
+    }
+
+    h1 {
+        color: var(--color--1);
+        font-family: var(--font-padrão);
+        font-size: 28px;
+        margin: 18px 60px;
+        padding-left: 20px;
+
+    }
+
+    p {
+        color: var(--color--1);
+        font-family: var(--font-padrão);
+        font-size: 16px;
+        margin: 20px 80px;
+        padding-left: 20px;
+    }
+
+    #button {
+        margin: 15px 95px;
+        padding-left: 60px;
+    }
+
+}
+
+@media (max-width: 920px) {
+    #slider {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin: 15px;
+    }
+
+    h1 {
+        color: var(--color--1);
+        font-family: var(--font-padrão);
+        font-size: 24px;
+        margin: 18px 40px;
+        padding-left: 16px;
+
+    }
+
+    p {
+        color: var(--color--1);
+        font-family: var(--font-padrão);
+        font-size: 12px;
+        margin: 20px 60px;
+        padding-left: 16px;
+    }
+
+    #button {
+        margin: 15px 60px;
+        padding-left: 40px;
+    }
+
+}
+
+@media (max-width: 700px) {
+    #slider {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin: 20px;
+    }
+
+    h1 {
+        color: var(--color--1);
+        font-family: var(--font-padrão);
+        font-size: 18px;
+        margin: 16px 26px;
+        padding-left: 8px;
+
+    }
+
+    p {
+        color: var(--color--1);
+        font-family: var(--font-padrão);
+        font-size: 10px;
+        margin: 16px 30px;
+        padding-left: 12px;
+    }
+
+    #button {
+        margin: 15px 60px;
+        padding-left: 40px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    #slider {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin: 20px;
+    }
+
+    h1 {
+        color: var(--color--1);
+        font-family: var(--font-padrão);
+        font-size: 16px;
+        margin: 16px 26px;
+        padding-left: 8px;
+
+    }
+
+    p {
+        color: var(--color--1);
+        font-family: var(--font-padrão);
+        font-size: 8px;
+        margin: 16px 30px;
+        padding-left: 12px;
+    }
+
+    #button {
+        margin: 15px 60px;
+        padding-left: 40px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    #slider {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin: 20px;
+    }
+
+    h1 {
+        color: var(--color--1);
+        font-family: var(--font-padrão);
+        font-size: 14px;
+        margin: 16px 26px;
+        padding-left: 8px;
+
+    }
+
+    p {
+        color: var(--color--1);
+        font-family: var(--font-padrão);
+        font-size: 7px;
+        margin: 16px 30px;
+        padding-left: 12px;
+    }
+
+    #button {
+        margin: 15px 60px;
+        padding-left: 40px;
+    }
+
+}

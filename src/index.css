@@ -1,0 +1,51 @@
+:root {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url('./imagens/uni-anime-4.gif') center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (max-width: 860px) {
+  body {
+    background: url('./imagens/uni-anime-.gif') center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 550px) {
+  body {
+    background: url('./imagens/uni-anime-1.gif') center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 410px) {
+  body {
+    background: url('./imagens/uni-anime-2.gif') center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+  }
+}
