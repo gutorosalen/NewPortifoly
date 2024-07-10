@@ -28,12 +28,12 @@ function Temple() {
             .from(e3Ref.current, { autoAlpha: 0, x: -100, duration: .5 })
             .from(e4Ref.current, { autoAlpha: 0, x: -100, duration: .5 })
             .from(e5Ref.current, { autoAlpha: 0, x: -100, duration: .5 })
-            .to(e1Ref.current, { autoAlpha: 0, x: -100, duration: .5, delay: 999999999 })
+            .to(e1Ref.current, { autoAlpha: 0, x: -100, duration: .5, delay: 99999999999999 })
             .to(e2Ref.current, { autoAlpha: 0, x: -100, duration: .5 })
             .to(e3Ref.current, { autoAlpha: 0, x: -100, duration: .5 })
             .to(e4Ref.current, { autoAlpha: 0, x: -100, duration: .5 })
             .to(e5Ref.current, { autoAlpha: 0, x: -100, duration: .5 })
-            .to(lineRef.current, { opacity: 0, duration: 9999999999 })
+            .to(lineRef.current, { opacity: 0, duration: 9 })
     }, [])
     return (
         <div class={styles.principal}>
