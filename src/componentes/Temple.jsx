@@ -12,6 +12,7 @@ function Temple() {
     const e4Ref = useRef()
     const e5Ref = useRef()
     const lineRef = useRef()
+    const bolRef = useRef()
 
     const DATA = [
         { id: 1, year: 2019, name: 'Curso Superior na tecnologia', ref: e1Ref },
@@ -34,11 +35,13 @@ function Temple() {
             .to(e4Ref.current, { autoAlpha: 0, x: -100, duration: .5 })
             .to(e5Ref.current, { autoAlpha: 0, x: -100, duration: .5 })
             .to(lineRef.current, { opacity: 0, duration: 9 })
+            .to(bolRef.current, { opacity: 0, duration: 9 })
     }, [])
     return (
         <div class={styles.principal}>
+            <h1 class={styles.title} id="Temple">Sobre Mim</h1>
             <div class={styles.mainBox}>
-                <h1 class={styles.title}>Sobre Mim</h1>
+
                 <div class={styles.wrapper}>
                     {DATA.map(el => {
                         return (
@@ -48,7 +51,13 @@ function Temple() {
                         )
                     })}
                 </div>
-                <div class={styles.line} ref={lineRef}></div>
+                <div class={styles.line} ref={lineRef}>
+                    <div class={styles.circle} />
+                    <div class={styles.circle} />
+                    <div class={styles.circle} />
+                    <div class={styles.circle} />
+                    <div class={styles.circle} />
+                </div>
                 <div class={styles.wrapper1}>
                     {DATA.map(el => {
                         return (

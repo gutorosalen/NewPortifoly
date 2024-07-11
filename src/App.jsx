@@ -4,6 +4,7 @@ import Apresentation from './componentes/apresentation'
 import './App.css'
 import Project from './componentes/Project'
 import Temple from './componentes/Temple'
+import Footer from './componentes/Footer'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -13,6 +14,8 @@ function App() {
       <Apresentation />
       <Project />
       <Temple />
+      <Footer />
+
     </>
   )
 }

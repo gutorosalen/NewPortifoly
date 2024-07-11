@@ -9,7 +9,7 @@ function Navbar() {
                 <div id={styles.menu}>
                     <a href="#Project" >Projetos</a>
                     <a href="#Tecnologias">Tecnologias</a>
-                    <a href="#contact">Sobre Mim</a>
+                    <a href="#Temple">Sobre Mim</a>
                 </div>
                 <div id={styles.links}>
                     <a href='https://github.com/gutorosalen' ><img src={github}></img></a>

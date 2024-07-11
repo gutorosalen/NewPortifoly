@@ -17,7 +17,7 @@
     width: 100%;
     background-color: rgb(0, 0, 0, 27%);
     margin: 0px;
-    padding: 12px;
+    padding: 12px 0px;
     padding-top: 15px;
     display: flex;
     justify-content: space-evenly;
@@ -69,7 +69,7 @@
         width: 100%;
         background-color: rgb(0, 0, 0, 47%);
         margin: 0px;
-        padding: 10px;
+        padding: 10px 0px;
         padding-top: 11.5px;
         display: flex;
         justify-content: space-evenly;
@@ -109,7 +109,7 @@
         width: 100%;
         background-color: rgb(0, 0, 0, 47%);
         margin: 0px;
-        padding: 10px;
+        padding: 10px 0px;
         padding-top: 15px;
         display: flex;
         justify-content: space-evenly;
@@ -161,7 +161,7 @@
         width: 100%;
         background-color: rgb(0, 0, 0, 47%);
         margin: 0px;
-        padding: 10px;
+        padding: 10px 0px;
         padding-top: 18px;
         display: flex;
         justify-content: space-evenly;
@@ -245,7 +245,7 @@
         width: 100%;
         background-color: rgb(0, 0, 0, 47%);
         margin: 0px;
-        padding-top: 10px;
+        padding-top: 10px 0px;
         display: flex;
         justify-content: space-evenly;
     }
@@ -297,7 +297,7 @@
         width: 100%;
         background-color: rgb(0, 0, 0, 47%);
         margin: 0px;
-        padding: 10px;
+        padding: 10px 0px;
         padding-top: 6px;
         display: flex;
         justify-content: space-evenly;
