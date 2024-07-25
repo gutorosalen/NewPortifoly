@@ -1,0 +1,128 @@
+.menuhamburguer {
+    display: none;
+    justify-content: end;
+}
+
+
+.menutoggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.menuitems {
+    display: flex;
+    /* Exibir os itens na horizontal */
+    position: absolute;
+    top: 40px;
+    /* Ajuste conforme necessário */
+    right: 50px;
+    /* Ajuste para alinhar com o botão */
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.menuitems a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 9px;
+}
+
+.menuitems a:hover {
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 500px) {
+    .menuhamburguer {
+        display: flex;
+        justify-content: end;
+    }
+
+
+    .menutoggle {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .menuitems {
+        display: flex;
+        /* Exibir os itens na horizontal */
+        position: absolute;
+        top: 5px;
+        /* Ajuste conforme necessário */
+        right: 30px;
+        /* Ajuste para alinhar com o botão */
+        width: 80%;
+        padding: 10px;
+        border-radius: 5px;
+        z-index: 1;
+    }
+
+    .menuitems a {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 8px 16px;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 9px;
+    }
+
+    .menuitems a:hover {
+        background-color: #f0f0f0;
+    }
+}
+
+@media (max-width: 440px) {
+    .menuhamburguer {
+        display: flex;
+        justify-content: end;
+    }
+
+
+    .menutoggle {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .menuitems {
+        display: flex;
+        /* Exibir os itens na horizontal */
+        position: absolute;
+        top: 4px;
+        /* Ajuste conforme necessário */
+        right: 15px;
+        /* Ajuste para alinhar com o botão */
+        width: 80%;
+        padding: 10px;
+        border-radius: 5px;
+        z-index: 1;
+    }
+
+    .menuitems a {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 8px 16px;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 9px;
+    }
+
+    .menuitems a:hover {
+        background-color: #f0f0f0;
+    }
+}

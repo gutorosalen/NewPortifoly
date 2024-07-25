@@ -246,7 +246,7 @@
         background-color: rgb(0, 0, 0, 47%);
         margin: 0px;
         padding-top: 10px 0px;
-        display: flex;
+        display: none;
         justify-content: space-evenly;
     }
 
@@ -293,13 +293,14 @@
     }
 
     .topnav {
+
         height: 20px;
         width: 100%;
         background-color: rgb(0, 0, 0, 47%);
         margin: 0px;
         padding: 10px 0px;
         padding-top: 6px;
-        display: flex;
+        display: none;
         justify-content: space-evenly;
     }
 

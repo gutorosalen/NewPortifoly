@@ -239,3 +239,33 @@
         margin-bottom: 20px;
     }
 }
+
+@media (max-width: 440px) {
+    .project {
+        height: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+        margin-top: 20px;
+        padding-top: 40px;
+        margin-bottom: 40px;
+        padding-bottom: 50px;
+    }
+
+    .project:hover {
+        height: 1300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
